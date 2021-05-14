@@ -1,0 +1,90 @@
+/* .nav-color{
+    background-color: transparent;
+} */
+
+.btn-border{
+    border: 2px solid red!;
+}
+
+/* Todays list section */
+.today-buttons {
+    display: flex;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .list-buttons {
+      justify-content: space-between;
+      height: 150px;
+      margin: 5%;
+  }
+
+
+
+.yellow-btn{
+    background-color: #fbe46f !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+}
+
+.coral-btn {
+    background: #ffadad !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+
+  .orange-btn {
+    background: #fbbe79 !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+  
+  .green-btn {
+    background: #c1d289 !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+  .blue-btn {
+    background: #a8dfff !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+  .pink-btn {
+    background: #f4cde1 !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+  
+  .purple-btn {
+    background: #d2c2ef !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
+  
+  .teal-btn {
+    background: #a6ded3 !important;
+    border-radius: 8px;
+    border: none !important;
+    align-items: center;
+    font-size: smaller;
+  }
