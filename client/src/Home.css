@@ -13,16 +13,22 @@
     padding-bottom: 5%;
     /* overflow-x: scroll;
     overflow-y: hidden; */
-    height: 300px;
+    height: 200px;
     width: 500px;
     display: inline-block;
     white-space: nowrap;
   }
 
   .list-buttons {
-      justify-content: space-between;
-      height: 150px;
-      margin: 5%;
+    /* display: flex; */
+    justify-content: space-between;
+    width: 130px;
+    height: 100px;
+    white-space: normal;
+    margin: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    word-wrap: break-word;
   }
 
 
@@ -87,4 +93,11 @@
     border: none !important;
     align-items: center;
     font-size: smaller;
+  }
+
+  /* category tabs */
+  .tablinks{
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    margin-left:1% !important ;
   }
