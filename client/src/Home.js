@@ -198,3 +198,7 @@ function Home() {
 }
 
 export default Home;
+
+
+
+// componet for a card and then props. whatever for the details to fill it for as many as there are
