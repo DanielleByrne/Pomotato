@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Activity from "./Activity";
 
 function Home() {
   return (
@@ -185,12 +186,12 @@ function Home() {
           >
             Start prepping for dinner
           </button>
-          <button
-            type="button"
-            className="btn green-btn black-text btn-group list-buttons"
+          <a
+            className="waves-effect waves-light btn-large btn green-btn black-text btn-group list-buttons"
+            href="./Activity"
           >
             Organize an area of your closet
-          </button>
+          </a>
         </div>
       </div>
     </>
@@ -199,6 +200,8 @@ function Home() {
 
 export default Home;
 
-
-
 // componet for a card and then props. whatever for the details to fill it for as many as there are
+
+// <Button href="/theorem" variant="success">
+// Check it out!
+// </Button>
